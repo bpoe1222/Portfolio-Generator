@@ -9,10 +9,12 @@ const generatePage = (name, github) => {
         <title>Portfolio Demo</title>
     </head>
 
+    <div style="display:flex; justify-content:center;">
     <body>
         <h1>${name}</h1>
         <h2><a href="https://github.com/${github}">Github</a></h2>
     </body>
+    </div>
     </html>
     `;
 };
